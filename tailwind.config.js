@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['index.html'],
+  darkMode: 'class',
   theme: {
     container: {
       center: true,
@@ -13,7 +14,9 @@ module.exports = {
         primary: '#6366f1',
         hover: '#4338ca',
         pressed: '#1e1b4b',
+        light: '#cbd5e1',
         secondary: '#64748b',
+        semidark: '#1e293b',
         dark: '#0f172a',
       },
       screens: {
@@ -22,6 +25,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 }
 
